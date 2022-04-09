@@ -5,6 +5,8 @@
 要下載預先編譯好 (For Windows x64) 的版本，請直接 Release 下載。  
 解壓縮後即可使用。
 
+![WinBoxCHT](https://raw.githubusercontent.com/tlchiu40209/WinBox-for-86Box-CHT/main/Images/Wiki/ScreenshotCHT.PNG "WinBox Traditional Chinese Screenshot")
+
 由於繁體中文語言檔案尚未 Pull Request 給原作者，建議您將***自動更新***關閉，避免新版本語言檔不相容導致問題。  
 另外使用該軟體時，**必須要先安裝 86Box**，或者您可讓程式自動下載最新的 86Box 安裝。  
 不過，您若選擇**安裝 86Box 繁體中文版，請記得在程式設定中關閉「模擬器自動更新」**，否則 86Box 繁體中文版會被複寫過去，則變回原本的英文版。
