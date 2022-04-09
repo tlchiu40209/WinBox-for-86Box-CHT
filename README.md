@@ -2,7 +2,7 @@
 
 ---
 
-要下載預先編譯好 (For Windows x64) 的版本，請直接 Release 下載。  
+要下載預先編譯好 (For Windows x64) 的版本，請直接 [Release](https://github.com/tlchiu40209/WinBox-for-86Box-CHT/releases) 下載。  
 解壓縮後即可使用。
 
 ![WinBoxCHT](https://raw.githubusercontent.com/tlchiu40209/WinBox-for-86Box-CHT/main/Images/Wiki/ScreenshotCHT.PNG "WinBox Traditional Chinese Screenshot")
