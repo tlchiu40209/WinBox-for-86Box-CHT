@@ -1,0 +1,15 @@
+100 ICON icon_empty.ico
+101 ICON icon_stopall.ico
+EMPTY RCDATA EMPTY.png
+BANNER_IMP RCDATA bann_imp.png
+WELCOME RCDATA welcome.png
+NAMEDEFS RCDATA namedefs.inf
+ABOUT RCDATA about.png
+HDD_TABLA RCDATA HDD_TABLA.txt
+FLOPPY RCDATA floppy.zip
+BANNER_FLOPPY RCDATA bann_floppy.png
+BANNER_HDD RCDATA bann_hdd.png
+BANNER_NEW RCDATA bann_new.png
+SPLASH RCDATA splash.png
+Windows10DarkExplorer VCLSTYLE win10dxp.vsf
+RetroBox95 VCLSTYLE retbox95.vsf

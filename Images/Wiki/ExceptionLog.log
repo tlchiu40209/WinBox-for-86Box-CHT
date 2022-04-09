@@ -1,0 +1,1299 @@
+------------------------------------------------------------------------------
+A kivételről napló készült részletes technikai információkkal.
+A generálás időpontja: 2021. 07. 21. 15:04:20.
+
+Ha a hiba váratlan volt, és oka ismeretlen, érdemes a naplót a
+ fejlesztő számára továbbítani, mivel nagyban segítheti őt hiba
+ okának megértésében.
+
+ Application Title: WinBox for 86Box v1.0.0.562
+ Application File: E:\Projektek\WinBox-for-86Box\Win32\Debug\WinBox.exe
+ Command Line: "E:\Projektek\WinBox-for-86Box\Win32\Debug\WinBox.exe" 
+ Program Language: hu-HU
+------------------------------------------------------------------------------
+Exception class: EOSError
+Exception message: System Error.  Code: 87.
+A paraméter nem megfelelő.
+Exception address: 004354EC
+------------------------------------------------------------------------------
+Main thread ID = 4636
+Exception thread ID = 4636
+------------------------------------------------------------------------------
+Exception stack
+Stack list, generated 2021. 07. 21. 15:04:19
+[004354E7]{WinBox.exe  } System.SysUtils.RaiseLastOSError$qqrv (Line 26251, "System.SysUtils.pas" + 0) + $7
+[00965739]{WinBox.exe  } frmMainForm.TWinBoxMain.acErrorExecute (Line 549, "frmMainForm.pas" + 8) + $0
+[004DB88F]{WinBox.exe  } System.Classes.TBasicAction.Execute (Line 17425, "System.Classes.pas" + 3) + $7
+[005E5C3E]{WinBox.exe  } Vcl.ActnList.TCustomAction.Execute (Line 261, "Vcl.ActnList.pas" + 19) + $35
+[004DB6F7]{WinBox.exe  } System.Classes.TBasicActionLink.Execute (Line 17336, "System.Classes.pas" + 2) + $7
+[006E20F3]{WinBox.exe  } Vcl.Menus.TMenuItem.Click (Line 2553, "Vcl.Menus.pas" + 17) + $7
+[006E3837]{WinBox.exe  } Vcl.Menus.TMenu.DispatchCommand (Line 3499, "Vcl.Menus.pas" + 5) + $2
+[006C4864]{WinBox.exe  } Vcl.Forms.TCustomForm.WMCommand (Line 6487, "Vcl.Forms.pas" + 5) + $19
+[006F6C42]{WinBox.exe  } Vcl.Controls.TControl.WndProc (Line 7420, "Vcl.Controls.pas" + 91) + $6
+[00409A22]{WinBox.exe  } System.TMonitor.Exit (Line 19210, "System.pas" + 1) + $2
+[00409A7E]{WinBox.exe  } System.TMonitor.Exit (Line 19232, "System.pas" + 2) + $7
+[005C8613]{WinBox.exe  } Vcl.Graphics.FreeMemoryContexts$qqrv (Line 7138, "Vcl.Graphics.pas" + 12) + $8
+[006FB6F7]{WinBox.exe  } Vcl.Controls.TWinControl.WndProc (Line 10278, "Vcl.Controls.pas" + 166) + $6
+[004DC5E4]{WinBox.exe  } System.Classes.StdWndProc$qqsp6HWND__uiuiui (Line 17929, "System.Classes.pas" + 8) + $0
+[00409D6C]{WinBox.exe  } System.TMonitor.TryEnter (Line 19445, "System.pas" + 10) + $0
+[00409894]{WinBox.exe  } System.TMonitor.Enter (Line 19106, "System.pas" + 4) + $2
+[00409700]{WinBox.exe  } System.TMonitor.CheckOwningThread (Line 19020, "System.pas" + 2) + $0
+[00409A22]{WinBox.exe  } System.TMonitor.Exit (Line 19210, "System.pas" + 1) + $2
+[00409A7E]{WinBox.exe  } System.TMonitor.Exit (Line 19232, "System.pas" + 2) + $7
+[005C8613]{WinBox.exe  } Vcl.Graphics.FreeMemoryContexts$qqrv (Line 7138, "Vcl.Graphics.pas" + 12) + $8
+[006FACC4]{WinBox.exe  } Vcl.Controls.TWinControl.MainWndProc (Line 9977, "Vcl.Controls.pas" + 3) + $6
+[006FACD9]{WinBox.exe  } Vcl.Controls.TWinControl.MainWndProc (Line 9980, "Vcl.Controls.pas" + 6) + $0
+[0040734C]{WinBox.exe  } System.@FreeMem$qqrpv (Line 4839, "System.pas" + 20) + $0
+[0040D69B]{WinBox.exe  } System.@DynArrayClear$qqrrpvpv (Line 36222, "System.pas" + 49) + $0
+[0040D2C8]{WinBox.exe  } System.DynArraySetLength$qqrrpvpvipi (Line 35868, "System.pas" + 9) + $6
+[004DC5E4]{WinBox.exe  } System.Classes.StdWndProc$qqsp6HWND__uiuiui (Line 17929, "System.Classes.pas" + 8) + $0
+[0040C2E1]{WinBox.exe  } System.@FinalizeArray$qqrpvt1ui (Line 32841, "System.pas" + 173) + $0
+[0040C19C]{WinBox.exe  } System.@FinalizeRecord$qqrpvt1 (Line 32510, "System.pas" + 41) + $0
+[00409770]{WinBox.exe  } System.TMonitor.Destroy (Line 19042, "System.pas" + 0) + $0
+[00408EAD]{WinBox.exe  } System.TObject.CleanupInstance (Line 17680, "System.pas" + 37) + $0
+[0040734C]{WinBox.exe  } System.@FreeMem$qqrpv (Line 4839, "System.pas" + 20) + $0
+[00408D10]{WinBox.exe  } System.TObject.FreeInstance (Line 17395, "System.pas" + 2) + $2
+[004094DA]{WinBox.exe  } System.@ClassDestroy$qqrxp14System.TObject (Line 18808, "System.pas" + 0) + $2
+[00409700]{WinBox.exe  } System.TMonitor.CheckOwningThread (Line 19020, "System.pas" + 2) + $0
+[006FB6F7]{WinBox.exe  } Vcl.Controls.TWinControl.WndProc (Line 10278, "Vcl.Controls.pas" + 166) + $6
+[00409A7E]{WinBox.exe  } System.TMonitor.Exit (Line 19232, "System.pas" + 2) + $7
+[004D892D]{WinBox.exe  } System.Classes.CheckSynchronize$qqri (Line 15339, "System.Classes.pas" + 56) + $5
+[006C14F1]{WinBox.exe  } Vcl.Forms.TCustomForm.WndProc (Line 4652, "Vcl.Forms.pas" + 209) + $5
+[00409A7E]{WinBox.exe  } System.TMonitor.Exit (Line 19232, "System.pas" + 2) + $7
+[005C8613]{WinBox.exe  } Vcl.Graphics.FreeMemoryContexts$qqrv (Line 7138, "Vcl.Graphics.pas" + 12) + $8
+[006FACC4]{WinBox.exe  } Vcl.Controls.TWinControl.MainWndProc (Line 9977, "Vcl.Controls.pas" + 3) + $6
+[004DC5E4]{WinBox.exe  } System.Classes.StdWndProc$qqsp6HWND__uiuiui (Line 17929, "System.Classes.pas" + 8) + $0
+[006CAEDF]{WinBox.exe  } Vcl.Forms.TApplication.ProcessMessage (Line 10747, "Vcl.Forms.pas" + 23) + $1
+[006CAF22]{WinBox.exe  } Vcl.Forms.TApplication.HandleMessage (Line 10777, "Vcl.Forms.pas" + 1) + $4
+[006CB255]{WinBox.exe  } Vcl.Forms.TApplication.Run (Line 10915, "Vcl.Forms.pas" + 26) + $3
+(0057C2FD){WinBox.exe  } [0097D2FD]
+------------------------------------------------------------------------------
+Call stack for main thread
+Stack list, generated 2021. 07. 21. 15:04:20
+[77E8240C]{ntdll.dll   } ZwGetContextThread + $C
+------------------------------------------------------------------------------
+System   : Windows 10 Professional, Version: 10.0, Build: 4A61, "", Language: hu-HU
+Processor: Intel, Intel(R) Core(TM) i3-6100 CPU @ 3.70GHz, 3700 MHz MMX SSE SSE2 SSE3 SSSE3 SSE41 SSE42 64 bits DEP
+Memory: 8131; free 4041
+Display  : 1920x1080 pixels, 32 bpp, 144 DPI
+Monitors: 1
+ 0.: 1920x1080 pixels, 144 DPI, Primary: True, Active: True
+------------------------------------------------------------------------------
+List of loaded modules:
+[00400000] E:\Projektek\WinBox-for-86Box\Win32\Debug\WinBox.exe
+           1.0.0.562 - 1.0.0.562
+           WinBox for 86Box
+[46480000] C:\Windows\SYSTEM32\security.dll
+           10.0.19041.1 - 10.0.19041.1 (WinBuild.160101.0800)
+           Security Support Provider Interface
+[62120000] C:\Windows\SYSTEM32\TextShaping.dll
+           (no module version info)
+[621C0000] C:\Windows\SYSTEM32\WINSTA.dll
+           10.0.19041.1 - 10.0.19041.1 (WinBuild.160101.0800)
+           Winstation Library
+[634B0000] C:\Windows\system32\windowscodecs.dll
+           10.0.19041.388 - 10.0.19041.388 (WinBuild.160101.0800)
+           Microsoft Windows Codecs Library
+[63620000] C:\Windows\SYSTEM32\CoreUIComponents.dll
+           10.0.19041.1 - 10.0.19041.1
+           Microsoft Core UI Components Dll
+[63920000] C:\Windows\SYSTEM32\CoreMessaging.dll
+           10.0.19041.423 - 10.0.19041.423
+           Microsoft CoreMessaging Dll
+[639C0000] C:\Windows\SYSTEM32\textinputframework.dll
+           10.0.19041.508 - 10.0.19041.508 (WinBuild.160101.0800)
+           "TextInputFramework.DYNLINK"
+[651F0000] C:\Windows\SYSTEM32\wintypes.dll
+           10.0.19041.508 - 10.0.19041.1 (WinBuild.160101.0800)
+           Windows-alaptípusok DLL-je
+[6C950000] C:\Windows\system32\wbem\wbemdisp.dll
+           10.0.19041.1 - 10.0.19041.1 (WinBuild.160101.0800)
+           WMI Scripting
+[6CB30000] C:\Windows\system32\wbem\wmiutils.dll
+           10.0.19041.1 - 10.0.19041.1 (WinBuild.160101.0800)
+           WMI
+[6CDF0000] C:\Windows\SYSTEM32\SHFolder.dll
+           10.0.19041.1 - 10.0.19041.1 (WinBuild.160101.0800)
+           Shell Folder Service
+[6E810000] C:\Windows\SYSTEM32\VirtDisk.dll
+           10.0.19041.1 - 10.0.19041.1 (WinBuild.160101.0800)
+           Virtual Disk API DLL
+[71CE0000] C:\Windows\SYSTEM32\sxs.dll
+           10.0.19041.450 - 10.0.19041.1 (WinBuild.160101.0800)
+           Fusion 2.5
+[72940000] C:\Windows\SYSTEM32\DWrite.dll
+           10.0.19041.388 - 10.0.19041.1 (WinBuild.160101.0800)
+           Microsoft DirectX tipográfiai szolgáltatások
+[72BD0000] C:\Windows\SYSTEM32\wininet.dll
+           11.0.19041.508 - 11.00.19041.1 (WinBuild.160101.0800)
+           Internet Extensions for Win32
+[73030000] C:\Windows\system32\uxtheme.dll
+           10.0.19041.488 - 10.0.19041.1 (WinBuild.160101.0800)
+           Microsoft UxTheme függvénytár
+[730B0000] C:\Windows\SYSTEM32\msimg32.dll
+           10.0.19041.508 - 10.0.19041.508 (WinBuild.160101.0800)
+           GDIEXT Client DLL
+[730C0000] C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.19041.488_none_11b1e5df2ffd8627\COMCTL32.dll
+           6.10.19041.488 - 6.10 (WinBuild.160101.0800)
+           Felhasználói élmény vezérlőinek kódtára
+[73750000] C:\Windows\SYSTEM32\winspool.drv
+           10.0.19041.1 - 10.0.19041.1 (WinBuild.160101.0800)
+           Windows nyomtatóvárólista-illesztőprogram
+[73980000] C:\Windows\SYSTEM32\DWMAPI.DLL
+           10.0.19041.488 - 10.0.19041.1 (WinBuild.160101.0800)
+           Microsoft Asztalablak-kezelő API
+[73F70000] C:\Windows\WinSxS\x86_microsoft.windows.gdiplus_6595b64144ccf1df_1.1.19041.508_none_429cdbca8a8ffa94\gdiplus.dll
+           10.0.19041.508 - 10.0.19041.508 (WinBuild.160101.0800)
+           Microsoft GDI+
+[74430000] C:\Windows\SYSTEM32\SECUR32.DLL
+           10.0.19041.1 - 10.0.19041.1 (WinBuild.160101.0800)
+           Security Support Provider Interface
+[74440000] C:\Windows\SYSTEM32\FLTLIB.DLL
+           10.0.19041.1 - 10.0.19041.1 (WinBuild.160101.0800)
+           Szűrőkönyvtár
+[74480000] C:\Windows\System32\dbghelp.dll
+           10.0.19041.488 - 10.0.19041.488 (WinBuild.160101.0800)
+           Windows Image Helper
+[74630000] C:\Windows\System32\rasadhlp.dll
+           10.0.19041.1 - 10.0.19041.1 (WinBuild.160101.0800)
+           Remote Access AutoDial Helper
+[74720000] C:\Windows\System32\mswsock.dll
+           10.0.19041.423 - 10.0.19041.1 (WinBuild.160101.0800)
+           Microsoft Windows Sockets 2.0 szolgáltató
+[74BF0000] C:\Program Files\ESET\ESET Security\x86\eamsi.dll
+           10.21.13.0 - 10.21.13.0 BETA
+           ESET Antimalware Scan Interface DLL
+[74C20000] C:\Windows\SYSTEM32\DNSAPI.dll
+           10.0.19041.508 - 10.0.19041.1 (WinBuild.160101.0800)
+           DNS-ügyfél API DLL-je
+[74CF0000] C:\Windows\SYSTEM32\amsi.dll
+           10.0.19041.1 - 10.0.19041.1 (WinBuild.160101.0800)
+           Anti-Malware Scan Interface
+[74EC0000] C:\Windows\system32\wbem\fastprox.dll
+           10.0.19041.1 - 10.0.19041.1 (WinBuild.160101.0800)
+           WMI Custom Marshaller
+[74FB0000] C:\Windows\system32\wbem\wbemsvc.dll
+           10.0.19041.1 - 10.0.19041.1 (WinBuild.160101.0800)
+           WMI
+[75090000] C:\Windows\SYSTEM32\wbemcomn.dll
+           10.0.19041.1 - 10.0.19041.1 (WinBuild.160101.0800)
+           WMI
+[75100000] C:\Windows\system32\wbem\wbemprox.dll
+           10.0.19041.1 - 10.0.19041.1 (WinBuild.160101.0800)
+           WMI
+[75110000] C:\Windows\SYSTEM32\ntmarta.dll
+           10.0.19041.1 - 10.0.19041.1 (WinBuild.160101.0800)
+           Windows NT - MARTA-szolgáltató
+[75140000] C:\Windows\SYSTEM32\profapi.dll
+           10.0.19041.488 - 10.0.19041.488 (WinBuild.160101.0800)
+           User Profile Basic API
+[75160000] C:\Windows\SYSTEM32\SSPICLI.DLL
+           10.0.19041.488 - 10.0.19041.488 (WinBuild.160101.0800)
+           Security Support Provider Interface
+[75190000] C:\Windows\SYSTEM32\kernel.appcore.dll
+           10.0.19041.1 - 10.0.19041.1 (WinBuild.160101.0800)
+           AppModel API Host
+[751A0000] C:\Windows\SYSTEM32\Wldp.dll
+           10.0.19041.423 - 10.0.19041.1 (WinBuild.160101.0800)
+           Windows-zárolási házirend
+[751D0000] C:\Windows\SYSTEM32\windows.storage.dll
+           10.0.19041.508 - 10.0.19041.1 (WinBuild.160101.0800)
+           Microsoft WinRT tárolási API
+[758A0000] C:\Windows\SYSTEM32\NETUTILS.DLL
+           10.0.19041.1 - 10.0.19041.1 (WinBuild.160101.0800)
+           Net Win32 API Helpers DLL
+[758B0000] C:\Windows\SYSTEM32\wtsapi32.dll
+           10.0.19041.1 - 10.0.19041.1 (WinBuild.160101.0800)
+           Windows Remote Desktop Session Host Server SDK APIs
+[758C0000] C:\Windows\SYSTEM32\version.dll
+           10.0.19041.1 - 10.0.19041.1 (WinBuild.160101.0800)
+           Version Checking and File Installation Libraries
+[758D0000] C:\Windows\SYSTEM32\USERENV.dll
+           10.0.19041.1 - 10.0.19041.1 (WinBuild.160101.0800)
+           Userenv
+[759D0000] C:\Windows\SYSTEM32\IPHLPAPI.DLL
+           10.0.19041.488 - 10.0.19041.1 (WinBuild.160101.0800)
+           IP Helper API
+[75A10000] C:\Windows\SYSTEM32\netapi32.dll
+           10.0.19041.1 - 10.0.19041.1 (WinBuild.160101.0800)
+           Net Win32 API DLL
+[75CD0000] C:\Windows\System32\msvcrt.dll
+           7.0.19041.1 - 7.0.19041.1 (WinBuild.160101.0800)
+           Windows NT CRT DLL
+[75D90000] C:\Windows\System32\clbcatq.dll
+           2001.12.10941.16384 - 2001.12.10941.16384 (WinBuild.160101.0800)
+           COM+ Configuration Catalog
+[75E10000] C:\Windows\System32\bcrypt.dll
+           10.0.19041.1 - 10.0.19041.1 (WinBuild.160101.0800)
+           Windows kriptográfiai primitívek kódtára
+[75FE0000] C:\Windows\System32\IMM32.DLL
+           10.0.19041.1 - 10.0.19041.1 (WinBuild.160101.0800)
+           Multi-User Windows IMM32 API Client DLL
+[76010000] C:\Windows\System32\shlwapi.dll
+           10.0.19041.1 - 10.0.19041.1 (WinBuild.160101.0800)
+           Shell Light-weight Utility Library
+[76060000] C:\Windows\System32\WS2_32.dll
+           10.0.19041.1 - 10.0.19041.1 (WinBuild.160101.0800)
+           Windows Socket 2.0 32 bites DLL
+[76120000] C:\Windows\System32\KERNEL32.DLL
+           10.0.19041.292 - 10.0.19041.329 (WinBuild.160101.0800)
+           Win32 kernel mag komponens
+[76210000] C:\Windows\System32\shcore.dll
+           10.0.19041.488 - 10.0.19041.1 (WinBuild.160101.0800)
+           SHCORE
+[762A0000] C:\Windows\System32\msvcp_win.dll
+           10.0.19041.488 - 10.0.19041.488 (WinBuild.160101.0800)
+           Microsoft® C Runtime Library
+[76320000] C:\Windows\System32\gdi32full.dll
+           10.0.19041.508 - 10.0.19041.508 (WinBuild.160101.0800)
+           GDI Client DLL
+[76460000] C:\Windows\System32\SHELL32.dll
+           10.0.19041.488 - 10.0.19041.329 (WinBuild.160101.0800)
+           Windows felület - közös DLL
+[76A20000] C:\Windows\System32\win32u.dll
+           10.0.19041.508 - 10.0.19041.508 (WinBuild.160101.0800)
+           Win32u
+[76A40000] C:\Windows\System32\bcryptPrimitives.dll
+           10.0.19041.264 - 10.0.19041.264 (WinBuild.160101.0800)
+           Windows Cryptographic Primitives Library
+[76AA0000] C:\Windows\System32\combase.dll
+           10.0.19041.508 - 10.0.19041.1 (WinBuild.160101.0800)
+           Microsoft COM for Windows
+[76DC0000] C:\Windows\System32\advapi32.dll
+           10.0.19041.1 - 10.0.19041.1 (WinBuild.160101.0800)
+           Speciális 32 bites Windows API
+[76E40000] C:\Windows\System32\NSI.dll
+           10.0.19041.1 - 10.0.19041.1 (WinBuild.160101.0800)
+           NSI User-mode interface DLL
+[77290000] C:\Windows\System32\PSAPI.dll
+           10.0.19041.1 - 10.0.19041.1 (WinBuild.160101.0800)
+           Process Status Helper
+[772A0000] C:\Windows\System32\comdlg32.dll
+           10.0.19041.488 - 10.0.19041.1 (WinBuild.160101.0800)
+           Common Dialogs DLL
+[77350000] C:\Windows\System32\GDI32.dll
+           10.0.19041.1 - 10.0.19041.1 (WinBuild.160101.0800)
+           GDI Client DLL
+[77380000] C:\Windows\System32\sechost.dll
+           10.0.19041.388 - 10.0.19041.1 (WinBuild.160101.0800)
+           Host for SCM/SDDL/LSA Lookup APIs
+[77400000] C:\Windows\System32\oleaut32.dll
+           10.0.19041.388 - 10.0.19041.388 (WinBuild.160101.0800)
+           OLEAUT32.DLL
+[774A0000] C:\Windows\System32\KERNELBASE.dll
+           10.0.19041.488 - 10.0.19041.388 (WinBuild.160101.0800)
+           Win32 kernel mag komponens
+[776C0000] C:\Windows\System32\USER32.dll
+           10.0.19041.488 - 10.0.19041.1 (WinBuild.160101.0800)
+           A Windows többfelhasználós USER API-jának ügyféloldali DLL-je
+[77960000] C:\Windows\System32\imagehlp.dll
+           10.0.19041.1 - 10.0.19041.1 (WinBuild.160101.0800)
+           Windows NT Image Helper
+[77980000] C:\Windows\System32\Msctf.dll
+           10.0.19041.488 - 10.0.19041.1 (WinBuild.160101.0800)
+           MSCTF kiszolgáló DLL
+[77A60000] C:\Windows\System32\ucrtbase.dll
+           10.0.19041.488 - 10.0.19041.488 (WinBuild.160101.0800)
+           Microsoft® C Runtime Library
+[77BE0000] C:\Windows\System32\RPCRT4.dll
+           10.0.19041.508 - 10.0.19041.1 (WinBuild.160101.0800)
+           Távoli eljáráshívás – futásidejű
+[77D10000] C:\Windows\System32\ole32.dll
+           10.0.19041.84 - 10.0.19041.1 (WinBuild.160101.0800)
+           Microsoft OLE for Windows
+[77E10000] C:\Windows\SYSTEM32\ntdll.dll
+           10.0.19041.488 - 10.0.19041.1 (WinBuild.160101.0800)
+           NT réteg DLL
+------------------------------------------------------------------------------
+Active Controls hierarchy:
+TWinBoxMain "WinBoxMain"
+------------------------------------------------------------------------------
+RTTI log of most important objects:
+Config=(
+	MachineRoot=C:\Users\laciba\Documents\WinBox for 86Box\Virtual Machines\
+	EraseProtLvl=1
+	TrayBehavior=0
+	MinimizeOnStart=False
+	LaunchTimeout=5000
+	EmulatorPath=C:\Users\laciba\Documents\WinBox for 86Box\Emulator Files\86Box.exe
+	Repository=https://ci.86box.net/job/86Box
+	AutoUpdate=True
+	GetSource=False
+	DisplayMode=0
+	DisplayValues=(TStringList @ 043B2130)
+	DisplayValues.Items=(
+		video_fullscreen_scale=1
+		dpi_scale=0
+		vid_resize=2
+	);
+	Tools=(TStringList @ 043B20E0)
+	Tools.Items=(
+	);
+	CustomTemplates=C:\Users\laciba\Documents\WinBox for 86Box\Custom Templates\
+	LoggingMode=0
+	GlobalLogFile=C:\Users\laciba\Documents\WinBox for 86Box\86Box.log
+	DebugMode=False
+	CrashDump=False
+	DiskImages=C:\Users\laciba\Documents\WinBox for 86Box\Virtual Machines\Other Disk Images\
+);
+
+WinBoxMain=(
+	Actions=(TActionList @ 042FBBB0)
+	MainMenu=(TMainMenu @ 04302920)
+	acDbgProcList=(TAction @ 04329EB0)
+	acDbgDumpList=(TAction @ 0432A010)
+	acDbgProcUpd=(TAction @ 0432A0C0)
+	acDbgProcChg=(TAction @ 0432A170)
+	miDebug=(TMenuItem @ 04332C70)
+	acDbgDumpList1=(TMenuItem @ 04333700)
+	acDbgProcChg1=(TMenuItem @ 04333A40)
+	acDbgProcList1=(TMenuItem @ 04333630)
+	acDbgProcUpd1=(TMenuItem @ 04333970)
+	acDbgProcOps=(TAction @ 0432A220)
+	acDbgPrfAsgn=(TAction @ 0432A2D0)
+	N2=(TMenuItem @ 04333B10)
+	acDbgProcChg2=(TMenuItem @ 04333BE0)
+	acDbgProcChg3=(TMenuItem @ 04333D80)
+	acDbgMonData=(TAction @ 0432A380)
+	N3=(TMenuItem @ 043338A0)
+	acDbgMonData1=(TMenuItem @ 04333CB0)
+	acDbgMonQuery=(TAction @ 0432A430)
+	ProcessMonitorQuerykiratsa1=(TMenuItem @ 043337D0)
+	acDbgProfChg=(TAction @ 0432A4E0)
+	N1=(TMenuItem @ 04333E50)
+	ProcessProfileOnChangeesemnyhvsok1=(TMenuItem @ 04333F20)
+	List=(TListBox @ 04ABF650)
+	List.ItemIndex=0
+	List.Items.Count=3
+	Pages=(TPageControl @ 04336C10)
+	tabHome=(TTabSheet @ 0431F500)
+	lbWelcomeTip=(TLabel @ 042A2FD0)
+	lbWelcome=(TLabel @ 042A2DC0)
+	ImgWelcome=(TImage @ 042A3E40)
+	tabPerfMon=(TTabSheet @ 0431FAC0)
+	pgCharts=(TPageControl @ 043368F0)
+	tabCPU=(TTabSheet @ 0431FDA0)
+	ChartCPU=(TChart @ 04B30840)
+	tabRAM=(TTabSheet @ 04320080)
+	ChartRAM=(TChart @ 04B30DA0)
+	tabVMs=(TTabSheet @ 04320360)
+	ChartVMs=(TChart @ 04B31300)
+	pnpBottom=(TPanel @ 04320640)
+	pnpRight=(TPanel @ 04320920)
+	lbHRAM=(TLabel @ 042A4050)
+	pbRAM=(TProgressBar @ 04320C00)
+	pnpLeft=(TPanel @ 04320EE0)
+	lbHCPU=(TLabel @ 042A4260)
+	pbCPU=(TProgressBar @ 043211C0)
+	tab86Box=(TTabSheet @ 043214A0)
+	Splitter=(TSplitter @ 042932D0)
+	StatusBar=(TStatusBar @ 04321780)
+	ListImages=(TVirtualImageList @ 043532F0)
+	ImageCollection=(TImageCollection @ 043AADD0)
+	acProgramSettings=(TAction @ 0432A590)
+	acUpdateList=(TAction @ 0432A640)
+	miTools=(TMenuItem @ 04331680)
+	Programbelltsok1=(TMenuItem @ 04332860)
+	N4=(TMenuItem @ 043314E0)
+	acStart=(TAction @ 043295C0)
+	acStop=(TAction @ 043293B0)
+	acPause=(TAction @ 04329670)
+	acStopForced=(TAction @ 04329460)
+	miMachine=(TMenuItem @ 04330090)
+	acStart1=(TMenuItem @ 04330160)
+	acStart3=(TMenuItem @ 043307E0)
+	acStart4=(TMenuItem @ 04330230)
+	acProfileSettings=(TAction @ 04329F60)
+	acProfileSettings1=(TMenuItem @ 04330A50)
+	miFile=(TMenuItem @ 0432F050)
+	acImportVM=(TAction @ 043291A0)
+	acImportVM1=(TMenuItem @ 0432F940)
+	aDbgErrAccViol=(TAction @ 04329BF0)
+	aDbgErrExcept=(TAction @ 04329D50)
+	aDbgErrConvErr=(TAction @ 04329CA0)
+	aDbgErrSystem=(TAction @ 04329E00)
+	aDbgErrorMath=(TAction @ 0432A6F0)
+	acDbgErrInvCast=(TAction @ 0432A7A0)
+	miWinBoxMonitor=(TMenuItem @ 04333560)
+	miExceptions=(TMenuItem @ 04333FF0)
+	KivtelfeldobsaEAccessViolation1=(TMenuItem @ 04334400)
+	KivtelfeldobsaEConvertError1=(TMenuItem @ 043344D0)
+	KivtelfeldobsaException1=(TMenuItem @ 04334190)
+	KivtelfeldobsaException2=(TMenuItem @ 043340C0)
+	KivtelfeldobsaEMathError1=(TMenuItem @ 04334260)
+	miView=(TMenuItem @ 04330F30)
+	miHelp=(TMenuItem @ 04334740)
+	acAbout=(TAction @ 0432A850)
+	Nvjegy1=(TMenuItem @ 04334F60)
+	N5=(TMenuItem @ 04330300)
+	N6=(TMenuItem @ 043308B0)
+	ImageCollection1=(TImageCollection @ 043AAD68)
+	Icons32=(TVirtualImageList @ 04353230)
+	Icons16=(TVirtualImageList @ 04353170)
+	ac86BoxSettings=(TAction @ 0432A900)
+	acCtrlAltDel=(TAction @ 04329880)
+	acCtrlAltEsc=(TAction @ 043297D0)
+	acHWReset=(TAction @ 04329930)
+	acBringToFront=(TAction @ 04329720)
+	CtrlAltDelkldse1=(TMenuItem @ 043303D0)
+	Virtulisgplelltsa1=(TMenuItem @ 04330710)
+	N7=(TMenuItem @ 04330640)
+	CtrlAltEsckldse1=(TMenuItem @ 043304A0)
+	Virtulisgphardveresjraindtsa1=(TMenuItem @ 04330570)
+	Hardverbelltsok1=(TMenuItem @ 04330980)
+	Virtulisgpeltrbehozsa1=(TMenuItem @ 04331000)
+	N8=(TMenuItem @ 043311A0)
+	VMMenu=(TPopupMenu @ 042EEFB0)
+	Virtulisgpindtsa1=(TMenuItem @ 04335100)
+	Virtulisgpszneteltetse1=(TMenuItem @ 043351D0)
+	N14=(TMenuItem @ 043352A0)
+	MenuItem1=(TMenuItem @ 04335370)
+	MenuItem2=(TMenuItem @ 04335440)
+	MenuItem3=(TMenuItem @ 04335510)
+	N15=(TMenuItem @ 043355E0)
+	MenuItem4=(TMenuItem @ 043356B0)
+	Virtulisgpknyszertettlelltsa1=(TMenuItem @ 04335780)
+	N16=(TMenuItem @ 04335850)
+	MenuItem5=(TMenuItem @ 04335C60)
+	Hardverbelltsok2=(TMenuItem @ 04335920)
+	Profilbelltsok1=(TMenuItem @ 043359F0)
+	N9=(TMenuItem @ 04335AC0)
+	HomeMenu=(TPopupMenu @ 042EF040)
+	Meglvvirtulisgpimportlsa1=(TMenuItem @ 09837280)
+	N10=(TMenuItem @ 09837420)
+	Virtulisgpeklistjnakfrisstse1=(TMenuItem @ 04A8B960)
+	acStopAll=(TAction @ 04329300)
+	acStopAllForced=(TAction @ 04329510)
+	N11=(TMenuItem @ 09837690)
+	Virtulisgplelltsa2=(TMenuItem @ 098374F0)
+	acStopAllForced1=(TMenuItem @ 098375C0)
+	N12=(TMenuItem @ 0432FAE0)
+	Azsszesvirtulisgplelltsa1=(TMenuItem @ 0432FBB0)
+	Azsszesvirtulisgpknyszertettlelltsa1=(TMenuItem @ 0432FC80)
+	TrayIcon=(TTrayIcon @ 043530B0)
+	AppEvents=(TApplicationEvents @ 04A8BBD0)
+	acClose=(TAction @ 0432A9B0)
+	N13=(TMenuItem @ 0432FD50)
+	Kilps1=(TMenuItem @ 0432FFC0)
+	N17=(TMenuItem @ 04A8BA30)
+	KilpsaWinBoxfor86Boxalkalmazsbl1=(TMenuItem @ 04A8BB00)
+	acOpenPrinterTray=(TAction @ 04329A90)
+	acOpenScreenshots=(TAction @ 043299E0)
+	acOpenWorkDir=(TAction @ 04329B40)
+	N18=(TMenuItem @ 04330B20)
+	Kpernykpekmegnyitsa1=(TMenuItem @ 04330BF0)
+	Kpernykpekmegnyitsa2=(TMenuItem @ 04330CC0)
+	N19=(TMenuItem @ 04330D90)
+	Munkaknyvtrmegnyitsa1=(TMenuItem @ 04330E60)
+	N20=(TMenuItem @ 09836990)
+	Kpernykpekmegnyitsa3=(TMenuItem @ 09836A60)
+	Nyomtattlcamegnyitsa1=(TMenuItem @ 09836B30)
+	N21=(TMenuItem @ 09836DA0)
+	Munkaknyvtrmegnyitsa2=(TMenuItem @ 09836E70)
+	acNewVM=(TAction @ 04328F90)
+	acNewHDD=(TAction @ 043290F0)
+	tbGlobal=(TToolBar @ 04AE18E0)
+	tbNewVM=(TToolButton @ 042A4470)
+	tbNewHDD=(TToolButton @ 042A4680)
+	ToolButton3=(TToolButton @ 042A4890)
+	tbStopAll=(TToolButton @ 042A4AA0)
+	tbUpdateList=(TToolButton @ 042A4CB0)
+	tbProgSettDlg=(TToolButton @ 042A4EC0)
+	ToolButton12=(TToolButton @ 042A50D0)
+	tbAbout2=(TToolButton @ 042A52E0)
+	tbVMs=(TToolBar @ 04AE1CA0)
+	tbStart=(TToolButton @ 042A54F0)
+	tbStop=(TToolButton @ 042A5700)
+	ToolButton4=(TToolButton @ 042A5910)
+	tbCtrlAltDel=(TToolButton @ 042A5B20)
+	tbHWReset=(TToolButton @ 042A5D30)
+	tbSettings=(TToolButton @ 042A5F40)
+	ToolButton9=(TToolButton @ 042A6150)
+	tbBringToFront=(TToolButton @ 042A6360)
+	tbPrinterTray=(TToolButton @ 042A6570)
+	ToolButton13=(TToolButton @ 042A6780)
+	tbAbout1=(TToolButton @ 042A6990)
+	tmrUpdate=(TTimer @ 04391BC0)
+	acDbgRTTILogFile=(TAction @ 04328B70)
+	SaveLogDialog=(TSaveDialog @ 0430A150)
+	RTTIadatokmentsenaplfjlba1=(TMenuItem @ 04334670)
+	N22=(TMenuItem @ 04333490)
+	acDbgNameDefsFile=(TAction @ 04328CD0)
+	acDbgLanguageFile=(TAction @ 0432AA60)
+	Nvdefincisfjlelmentse1=(TMenuItem @ 04333150)
+	N23=(TMenuItem @ 043345A0)
+	acDbgGetSysLocale=(TAction @ 04328EE0)
+	acDbgGetProgLocale=(TAction @ 04328E30)
+	acDbgGetCmdLine=(TAction @ 04328D80)
+	Jelenleginyelvifjlmentse1=(TMenuItem @ 04333220)
+	N24=(TMenuItem @ 04333080)
+	Arendszernyelvneklekrdezse1=(TMenuItem @ 04332EE0)
+	Aprogramnyelvneklekrdezse1=(TMenuItem @ 04332FB0)
+	N25=(TMenuItem @ 04332D40)
+	N26=(TMenuItem @ 04332E10)
+	miPerfCPU1=(TMenuItem @ 043318F0)
+	miExportMetafile1=(TMenuItem @ 04331D00)
+	miExportBitmap1=(TMenuItem @ 04331C30)
+	miPrint1=(TMenuItem @ 04331B60)
+	N27=(TMenuItem @ 04331A90)
+	miShow1=(TMenuItem @ 043319C0)
+	miPerfRAM1=(TMenuItem @ 04331DD0)
+	miExportMetafile2=(TMenuItem @ 043321E0)
+	miExportBitmap2=(TMenuItem @ 04332110)
+	miPrint2=(TMenuItem @ 04332040)
+	N28=(TMenuItem @ 04331F70)
+	miShow2=(TMenuItem @ 04331EA0)
+	miPerfVMs1=(TMenuItem @ 043322B0)
+	miExportMetafile3=(TMenuItem @ 043326C0)
+	miExportBitmap3=(TMenuItem @ 043325F0)
+	miPrint3=(TMenuItem @ 04332520)
+	N29=(TMenuItem @ 04332450)
+	miShow3=(TMenuItem @ 04332380)
+	N30=(TMenuItem @ 04332790)
+	SaveBmp=(TSavePictureDialog @ 042B8750)
+	SaveEmf=(TSavePictureDialog @ 042B8650)
+	PrintDialog=(TPrintDialog @ 042E72C0)
+	acDbgFolderChg=(TAction @ 04329250)
+	FolderMonitorOnChangenaplzsa1=(TMenuItem @ 043333C0)
+	N31=(TMenuItem @ 043332F0)
+	jvirtulisgpltrehozsa1=(TMenuItem @ 09837010)
+	jvirtulismerevlemezltrehozsa1=(TMenuItem @ 098370E0)
+	N32=(TMenuItem @ 098371B0)
+	jvirtulisgpltrehozsa2=(TMenuItem @ 0432F6D0)
+	jvirtulismerevlemezltrehozsa2=(TMenuItem @ 0432F7A0)
+	N33=(TMenuItem @ 0432F870)
+	ColorDialog=(TColorDialog @ 042EF0D0)
+	acChangeColor=(TAction @ 0432ABC0)
+	acResetColor=(TAction @ 0432AC70)
+	acUpdateFull=(TAction @ 0432AB10)
+	Virtulisgpinformcikfrisstse1=(TMenuItem @ 043310D0)
+	N34=(TMenuItem @ 04331410)
+	Httrsznmegvltoztatsa1=(TMenuItem @ 04331270)
+	Httrsznvisszalltsa1=(TMenuItem @ 04331340)
+	Virtulisgpinformcikfrisstse2=(TMenuItem @ 04335D30)
+	Httrsznmegvltoztatsa2=(TMenuItem @ 04336140)
+	Httrsznvisszalltsa2=(TMenuItem @ 098368C0)
+	acUpdateTools=(TAction @ 0432AD20)
+	Felhasznlieszkzklistjnakfrisstse1=(TMenuItem @ 043315B0)
+	miSepUserTools=(TMenuItem @ 04332930)
+	miUserTools=(TMenuItem @ 04332A00)
+	PerfMenu=(TPopupMenu @ 042EF160)
+	miPerfCPU2=(TMenuItem @ 04A8BD70)
+	miExportMetafile4=(TMenuItem @ 04A8C180)
+	miExportBitmap4=(TMenuItem @ 04A8C0B0)
+	miPrint4=(TMenuItem @ 04A8BFE0)
+	N36=(TMenuItem @ 04A8BF10)
+	miShow4=(TMenuItem @ 04A8BE40)
+	miPerfRAM2=(TMenuItem @ 04A8C250)
+	miExportMetafile5=(TMenuItem @ 04A8C660)
+	miExportBitmap5=(TMenuItem @ 04A8C590)
+	miPrint5=(TMenuItem @ 04A8C4C0)
+	N37=(TMenuItem @ 04A8C3F0)
+	miShow5=(TMenuItem @ 04A8C320)
+	miPerfVMs2=(TMenuItem @ 04A8C730)
+	miExportMetafile6=(TMenuItem @ 04A8CB40)
+	miExportBitmap6=(TMenuItem @ 04A8CA70)
+	miPrint6=(TMenuItem @ 04A8C9A0)
+	N38=(TMenuItem @ 04A8C8D0)
+	miShow6=(TMenuItem @ 04A8C800)
+	acDeleteVM=(TAction @ 0432ADD0)
+	N39=(TMenuItem @ 0432FEF0)
+	Akijelltvirtulisgpeltvoltsa1=(TMenuItem @ 0432FE20)
+	DeleteDialog=(TTaskDialog @ 042B8550)
+	N40=(TMenuItem @ 04335E00)
+	Akijelltvirtulisgpeltvoltsa2=(TMenuItem @ 09836CD0)
+	acDiskDatabase=(TAction @ 04328C20)
+	N41=(TMenuItem @ 04332AD0)
+	Merevlemezadatbzismegnyitsa1=(TMenuItem @ 04332BA0)
+	acAutoUpdate=(TAction @ 04328AC0)
+	N42=(TMenuItem @ 04331820)
+	Emultorfrisstsekkeresse1=(TMenuItem @ 04331750)
+	N43=(TMenuItem @ 043349B0)
+	miOnlineDocs1=(TMenuItem @ 04334810)
+	N44=(TMenuItem @ 04334E90)
+	miOnlineLinks2=(TMenuItem @ 04334B50)
+	miOnlineLinks4=(TMenuItem @ 04334CF0)
+	miOnlineLinks1=(TMenuItem @ 04334A80)
+	miOnlineLinks5=(TMenuItem @ 04334DC0)
+	miOnlineLinks3=(TMenuItem @ 04334C20)
+	acNewFloppy=(TAction @ 04329040)
+	jhajlkonylemezkpfjlltrehozsa1=(TMenuItem @ 0432FA10)
+	jhajlkonylemezkpfjlltrehozsa2=(TMenuItem @ 09837350)
+	Emultorfrisstsekkeresse2=(TMenuItem @ 09837760)
+	jvirtulismerevlemezltrehozsa3=(TMenuItem @ 04335ED0)
+	jhajlkonylemezkpfjlltrehozsa3=(TMenuItem @ 04335FA0)
+	N35=(TMenuItem @ 09836C00)
+	N45=(TMenuItem @ 04336070)
+	ovbbilehetsgek1=(TMenuItem @ 04335B90)
+	Virtulisgpeklistjnakfrisstse2=(TMenuItem @ 04A8CDB0)
+	N46=(TMenuItem @ 04A8CC10)
+	Programbelltsok2=(TMenuItem @ 04A8CCE0)
+	Programbelltsok3=(TMenuItem @ 04A8B890)
+	Merevlemezadatbzismegnyitsa2=(TMenuItem @ 09837830)
+	N49=(TMenuItem @ 04A8B7C0)
+	miOnlineDocs2=(TMenuItem @ 043348E0)
+	KivtelfeldobsaEInvalidCast1=(TMenuItem @ 04334330)
+	HalfCharHeight=10
+	BorderThickness=4
+	clHighlight1=14120960
+	clHighlight2=16749325
+	clDisabled1=7039851
+	clDisabled2=8816262
+	SideRatio=0,300000011920929
+	IsAllStopped=False
+	IsAnyRunning=True
+	IsSelectedVM=False
+	FirstUpdateDone=True
+	UpdateCount=3
+	Updater=(TUpdaterDlg @ 0981A860)
+	Monitor=(T86BoxMonitor @ 04398250)
+	Profiles[0]=(
+		NameDefFile=C:\Users\laciba\Documents\WinBox for 86Box\Emulator Files\namedefs.inf
+		ConfigFile=C:\Users\laciba\Documents\WinBox for 86Box\Virtual Machines\{B00F8D77-F196-4A5F-A218-F83602D0F2A9}\86box.cfg
+		IDM_ACTION_SCREENSHOT=40012
+		IDM_ACTION_HRESET=40013
+		IDM_ACTION_RESET_CAD=40014
+		IDM_ACTION_EXIT=40015
+		IDM_ACTION_CTRL_ALT_ESC=40016
+		IDM_ACTION_PAUSE=40017
+		IDM_CONFIG=40020
+		HasPrinterTray=True
+		Screenshots=C:\Users\laciba\Documents\WinBox for 86Box\Virtual Machines\{B00F8D77-F196-4A5F-A218-F83602D0F2A9}\screenshots\
+		PrinterTray=C:\Users\laciba\Documents\WinBox for 86Box\Virtual Machines\{B00F8D77-F196-4A5F-A218-F83602D0F2A9}\printer\
+		DiskSize=20818028
+		NameDefs=(TMemIniFile @ 04A71FB0)
+		ConfigData=(
+			Machine=ami486
+			CPUType=i386dx
+			GfxCard=tvga8900d
+			SndCard=sb16_pnp
+			Midi=none
+			NetCard=none
+			NetType=none
+			ScsiCard=none
+			Mouse=msserial
+			Joystick=none
+			Memory=8192
+			CPUSpeed=20000000
+			VoodooType=0
+			HasVoodoo=False
+			SLI=False
+			AspectRatio=(record)
+			Floppy=(array)
+			Serial=?
+			Parallel=?
+			HDD=(array)
+			CDROM=(array)
+			ZIP=(array)
+			MO=(array)
+		);
+		FIndexMap=(dynamic array)
+		FStarted=0
+		FState=1
+		FMonitor=(T86BoxMonitor @ 04398250)
+		FChange=(method code=00968BA0, data=04AAD1C0)
+		FWorkingDirectory=C:\Users\laciba\Documents\WinBox for 86Box\Virtual Machines\{B00F8D77-F196-4A5F-A218-F83602D0F2A9}\
+		ProfileID={B00F8D77-F196-4A5F-A218-F83602D0F2A9}
+		FriendlyName=Windows 3.1
+		Description=
+		ExecutablePath=C:\Users\laciba\Documents\WinBox for 86Box\Emulator Files\86Box.exe
+		OptionalParams=
+		Color=536870911
+		EraseProt=False
+		Fullscreen=False
+		HasIcon=True
+		Icon=(TWICImage @ 043927C0)
+		LoggingMode=0
+		DebugMode=0
+		CrashDump=0
+		GetFileVer(ExecutablePath)=v3.0.0.3065
+	);
+	Frame86Box=(TFrame86Box @ 04280870)
+	Icons=(TObjectList<Vcl.Graphics.TWICImage> @ 04398288)
+	FTaskbarHandler=(empty)
+	FActiveControl=(empty)
+	FFocusedControl=(TWinBoxMain @ 04AAD1C0)
+	FBorderIcons=[biSystemMenu,biMinimize,biMaximize]
+	FBorderStyle=bsSizeable
+	FWindowState=wsNormal
+	FShowAction=saIgnore
+	FKeyPreview=False
+	FActive=False
+	FFormStyle=fsNormal
+	FPosition=poDesigned
+	FDefaultMonitor=dmActiveForm
+	FTileMode=tbHorizontal
+	FDropTarget=False
+	FPrintScale=poProportional
+	FCanvas=(TControlCanvas @ 04318190)
+	FHelpFile=
+	FIcon=(TIcon @ 043A3E90)
+	FInCMParentBiDiModeChanged=False
+	FMenu=(TMainMenu @ 04302920)
+	FModalResult=0
+	FDesigner=(empty)
+	FWindowMenu=(empty)
+	FPixelsPerInch=96
+	FScaled=True
+	FObjectMenuItem=(empty)
+	FOleForm=(empty)
+	FClientWidth=1055
+	FClientHeight=672
+	FTextHeight=13
+	FDefClientProc=(empty)
+	FActiveOleControl=(empty)
+	FSavedBorderStyle=bsNone
+	FOnActivate=(empty)
+	FOnAfterMonitorDpiChanged=(empty)
+	FOnBeforeMonitorDpiChanged=(empty)
+	FOnClose=(method code=00967808, data=04AAD1C0)
+	FOnCloseQuery=(empty)
+	FOnDeactivate=(empty)
+	FOnHelp=(empty)
+	FOnHide=(empty)
+	FOnPaint=(empty)
+	FOnShortCut=(empty)
+	FOnShow=(method code=00967CD0, data=04AAD1C0)
+	FOnCreate=(method code=00967840, data=04AAD1C0)
+	FOnDestroy=(method code=00967C68, data=04AAD1C0)
+	FAlphaBlend=False
+	FAlphaBlendValue=255
+	FPopupChildren=(TList @ 043677D0)
+	FPopupMode=pmNone
+	FPopupParent=(empty)
+	FRecreateChildren=(empty)
+	FPopupWnds=(empty)
+	FInternalPopupParent=(empty)
+	FInternalPopupParentWnd=0
+	FScreenSnap=False
+	FSnapBuffer=10
+	FTransparentColor=False
+	FTransparentColorValue=0
+	FCreatingMainForm=True
+	FGlassFrame=(TGlassFrame @ 04395A80)
+	FRefreshGlassFrame=False
+	FOldCreateOrder=False
+	FClientHandle=0
+	FClientInstance=(empty)
+	FFormState=[]
+	FAutoRangeCount=0
+	FAutoScroll=False
+	FHorzScrollBar=(TControlScrollBar @ 043B2860)
+	FPanPoint=(record)
+	FUpdatingScrollBars=False
+	FVertScrollBar=(TControlScrollBar @ 043B2810)
+	FAlignControlList=(empty)
+	FAlignLevel=0
+	FBevelEdges=[beLeft,beTop,beRight,beBottom]
+	FBevelInner=bvRaised
+	FBevelOuter=bvLowered
+	FBevelKind=bkNone
+	FBevelWidth=1
+	FBorderWidth=0
+	FPadding=(TPadding @ 04379D40)
+	FBrush=(TBrush @ 0435CAE0)
+	FDockClients=(empty)
+	FDockManager=(empty)
+	FImeMode=imDontCare
+	FImeName=
+	FParentWindow=0
+	FTabList=(TList @ 04364998)
+	FTipMode=tipDontCare
+	FControls=(TList @ 043644A0)
+	FWinControls=(TList @ 04364980)
+	FTabOrder=-1
+	FTabStop=False
+	FTIPIntf=(empty)
+	FCtl3D=True
+	FShowing=True
+	FUseDockManager=False
+	FDockSite=False
+	FParentCtl3D=False
+	FParentDoubleBuffered=False
+	FPerformingShowingChanged=False
+	FOnDockDrop=(empty)
+	FOnDockOver=(empty)
+	FOnEnter=(empty)
+	FOnExit=(empty)
+	FOnGetSiteInfo=(empty)
+	FOnKeyDown=(empty)
+	FOnKeyPress=(empty)
+	FOnKeyUp=(empty)
+	FOnUnDock=(empty)
+	FOnAlignInsertBefore=(empty)
+	FOnAlignPosition=(empty)
+	FMouseInClient=False
+	FMouseControl=(empty)
+	FTouchControl=(empty)
+	FDefWndProc=(pointer @ 0041AA18)
+	FHandle=1838598
+	FObjectInstance=(pointer @ 024C0FBB)
+	FDoubleBuffered=False
+	FInImeComposition=False
+	FDesignSize=(record)
+	FAsyncList=(empty)
+	FParent=(empty)
+	FWindowProc=(method code=006C0EA4, data=04AAD1C0)
+	FLeft=421
+	FTop=131
+	FWidth=1077
+	FHeight=758
+	FControlStyle=[csAcceptsControls,csCaptureMouse,csClickEvents,csSetCaption,csDoubleClicks,csPannable,csGestures,csPaintBlackOpaqueOnGlass]
+	FControlState=[]
+	FDesktopFont=False
+	FVisible=True
+	FEnabled=True
+	FParentFont=False
+	FParentColor=False
+	FAlign=alNone
+	FAutoSize=False
+	FDragMode=dmManual
+	FIsControl=False
+	FBiDiMode=bdLeftToRight
+	FParentBiDiMode=True
+	FAnchors=[akLeft,akTop]
+	FFont=(TFont @ 04381340)
+	FActionLink=(empty)
+	FColor=-16777201
+	FConstraints=(TSizeConstraints @ 04379C78)
+	FMargins=(TMargins @ 04379CA0)
+	FCursor=0
+	FDragCursor=-12
+	FPopupMenu=(empty)
+	FHint=
+	FFontHeight=-17
+	FScalingFlags=[]
+	FShowHint=False
+	FParentShowHint=True
+	FDragKind=dkDrag
+	FDockOrientation=doNoOrient
+	FHostDockSite=(empty)
+	FWheelAccumulator=0
+	FUndockWidth=0
+	FUndockHeight=0
+	FLRDockWidth=0
+	FTBDockHeight=0
+	FFloatingDockSiteClass=(class 'TWinBoxMain' @ 0095F3C8)
+	FTouchManager=(TTouchManager @ 04379CF0)
+	FOnCanResize=(empty)
+	FOnConstrainedResize=(empty)
+	FOnMouseDown=(empty)
+	FOnMouseMove=(empty)
+	FOnMouseUp=(empty)
+	FOnDragDrop=(empty)
+	FOnDragOver=(empty)
+	FOnResize=(method code=00967CC0, data=04AAD1C0)
+	FOnStartDock=(empty)
+	FOnEndDock=(empty)
+	FOnStartDrag=(empty)
+	FOnEndDrag=(empty)
+	FOnClick=(empty)
+	FOnDblClick=(empty)
+	FOnContextPopup=(empty)
+	FOnMouseActivate=(empty)
+	FOnMouseLeave=(empty)
+	FOnMouseEnter=(empty)
+	FOnMouseWheel=(empty)
+	FOnMouseWheelDown=(empty)
+	FOnMouseWheelUp=(empty)
+	FOnGesture=(empty)
+	FHelpType=htContext
+	FHelpKeyword=
+	FHelpContext=0
+	FCustomHint=(empty)
+	FParentCustomHint=True
+	FText=(empty)
+	FStyleElements=[seFont,seClient,seBorder]
+	FIScaling=False
+	FCurrentPPI=144
+	FAnchorMove=False
+	FAnchorRules=(record)
+	FAnchorOrigin=(record)
+	FOriginalParentCalcType=ctNative
+	FOriginalParentSize=(record)
+	FExplicitLeft=421
+	FExplicitTop=131
+	FExplicitWidth=1077
+	FExplicitHeight=758
+	FReserved=(empty)
+	FScaleFactor=1,5
+	FOwner=(TApplication @ 0434BDE0)
+	FName=WinBoxMain
+	FTag=0
+	FComponents=(TList<System.Classes.TComponent> @ 04381670)
+	FFreeNotifies=(TList<System.Classes.TComponent> @ 04A843A0)
+	FDesignInfo=0
+	FComponentState=[csFreeNotification]
+	FVCLComObject=(empty)
+	FObservers=(empty)
+	FOnGetDeltaStreams=(empty)
+	FComponentStyle=[csInheritable]
+	FSortedComponents=(TList<System.Classes.TComponent> @ 043816D0)
+);
+
+Frame86Box=(
+	cgPanels=(TCategoryPanelGroup @ 04337570)
+	cpPorts=(TCategoryPanel @ 04ABF9C0)
+	lbParallel=(TLabel @ 042A8040)
+	lbSerialDesc=(TLabel @ 042A7A10)
+	lbSerial=(TLabel @ 042A7E30)
+	lbParallelDesc=(TLabel @ 042A7C20)
+	cpInput=(TCategoryPanel @ 04ABFD30)
+	edJoystick=(TEdit @ 04322E80)
+	lbMouseDesc=(TLabel @ 042A8250)
+	edMouse=(TEdit @ 04323160)
+	lbJoystickDesc=(TLabel @ 042A8460)
+	cpNetwork=(TCategoryPanel @ 04AC00A0)
+	edNetType=(TEdit @ 04323720)
+	lbNetCardDesc=(TLabel @ 042A8670)
+	edNetCard=(TEdit @ 04323A00)
+	lbNetTypeDesc=(TLabel @ 042A8880)
+	cpStorage=(TCategoryPanel @ 04AC0410)
+	edSCSI=(TEdit @ 04323FC0)
+	lbCDROM=(TLabel @ 042A96F0)
+	lbHDD=(TLabel @ 042A9900)
+	lbFloppy=(TLabel @ 042A9B10)
+	lbFloppyDesc=(TLabel @ 042A8A90)
+	lbHDDDesc=(TLabel @ 042A8CA0)
+	lbCDROMDesc=(TLabel @ 042A8EB0)
+	lbSCSIDesc=(TLabel @ 042A90C0)
+	lbExStorDesc=(TLabel @ 042A92D0)
+	lbExStor=(TLabel @ 042A94E0)
+	cpSound=(TCategoryPanel @ 04AC0780)
+	edMidi=(TEdit @ 04324580)
+	lbSndCardDesc=(TLabel @ 042A9D20)
+	edSndCard=(TEdit @ 04324860)
+	lbMidiDesc=(TLabel @ 04B23130)
+	cpVideo=(TCategoryPanel @ 04AC0AF0)
+	ed3dfx=(TEdit @ 04324E20)
+	lbGfxCardDesc=(TLabel @ 04B23340)
+	edGfxCard=(TEdit @ 04325100)
+	lb3dfxDesc=(TLabel @ 04B23550)
+	cpSystem=(TCategoryPanel @ 04AC0E60)
+	edEmulator=(TEdit @ 043256C0)
+	lbMachineDesc=(TLabel @ 04B23760)
+	edMachine=(TEdit @ 043259A0)
+	lbMemoryDesc=(TLabel @ 04B23970)
+	lbMemory=(TLabel @ 04B23FA0)
+	edCPU=(TEdit @ 04325C80)
+	lbCPUDesc=(TLabel @ 04B23B80)
+	lbEmulatorDesc=(TLabel @ 04B23D90)
+	bvBottom=(TBevel @ 04313500)
+	btnPrinter=(TButton @ 04337890)
+	lbStateDesc=(TLabel @ 042A7800)
+	RightPanel=(TPanel @ 04325F60)
+	lbHostCPU=(TLabel @ 04B243C0)
+	lbHostCPUDesc=(TLabel @ 04B245D0)
+	lbHostMemoryRAM=(TLabel @ 04B247E0)
+	lbHostRAM=(TLabel @ 04B249F0)
+	lbScreenshots=(TLabel @ 04B24C00)
+	lbDiskSizeDesc=(TLabel @ 04B24E10)
+	lbDiskSize=(TLabel @ 04B25020)
+	pbHostCPU=(TProgressBar @ 04326240)
+	pbHostRAM=(TProgressBar @ 04326520)
+	btnImgNext=(TButton @ 04337BB0)
+	btnImgPrev=(TButton @ 04337ED0)
+	edState=(TEdit @ 043225E0)
+	bvScreenshots=(TBevel @ 04313140)
+	lbNone=(TLabel @ 04B241B0)
+	TopPanel=(TPanel @ 04326800)
+	lbFriendlyName=(TLabel @ 04B25230)
+	btnWorkDir=(TSpeedButton @ 04B25440)
+	Splitter=(TSplitter @ 04293090)
+	DelayPicture=(TTimer @ 043926A0)
+	PicturePager=(
+		FItemIndex=-1
+		FImage=(empty)
+		FDisplay=(empty)
+		FList=(TStringList @ 043B4750)
+		FUpdate=(empty)
+		FFolder=
+		FStretch=smFixAspect
+		FAspY=3
+		FNext=(TButton @ 04337BB0)
+		FCenter=True
+		FAspX=4
+		FPrev=(TButton @ 04337ED0)
+		FFilter=*.png
+		L=0
+		T=0
+		W=0
+		H=0
+		FCanvas=(TControlCanvas @ 0431BBC0)
+		FParent=(TPanel @ 04325F60)
+		FWindowProc=(method code=006F6984, data=04293990)
+		FLeft=18
+		FTop=57
+		FWidth=240
+		FHeight=167
+		FControlStyle=[csCaptureMouse,csClickEvents,csSetCaption,csDoubleClicks,csGestures]
+		FControlState=[]
+		FDesktopFont=False
+		FVisible=True
+		FEnabled=True
+		FParentFont=True
+		FParentColor=True
+		FAlign=alNone
+		FAutoSize=False
+		FDragMode=dmManual
+		FIsControl=False
+		FBiDiMode=bdLeftToRight
+		FParentBiDiMode=True
+		FAnchors=[akLeft,akTop,akRight,akBottom]
+		FFont=(TFont @ 04A84970)
+		FActionLink=(empty)
+		FColor=-16777211
+		FConstraints=(TSizeConstraints @ 0437DA80)
+		FMargins=(TMargins @ 0437D148)
+		FCursor=-21
+		FDragCursor=-12
+		FPopupMenu=(empty)
+		FHint=
+		FFontHeight=-17
+		FScalingFlags=[sfFont]
+		FShowHint=False
+		FParentShowHint=True
+		FDragKind=dkDrag
+		FDockOrientation=doNoOrient
+		FHostDockSite=(empty)
+		FWheelAccumulator=0
+		FUndockWidth=0
+		FUndockHeight=0
+		FLRDockWidth=0
+		FTBDockHeight=0
+		FFloatingDockSiteClass=(class 'TCustomDockForm' @ 006B8720)
+		FTouchManager=(TTouchManager @ 0984D5A0)
+		FOnCanResize=(empty)
+		FOnConstrainedResize=(empty)
+		FOnMouseDown=(empty)
+		FOnMouseMove=(empty)
+		FOnMouseUp=(empty)
+		FOnDragDrop=(empty)
+		FOnDragOver=(empty)
+		FOnResize=(empty)
+		FOnStartDock=(empty)
+		FOnEndDock=(empty)
+		FOnStartDrag=(empty)
+		FOnEndDrag=(empty)
+		FOnClick=(method code=0080B7A0, data=04280870)
+		FOnDblClick=(empty)
+		FOnContextPopup=(method code=0080B878, data=04280870)
+		FOnMouseActivate=(empty)
+		FOnMouseLeave=(empty)
+		FOnMouseEnter=(empty)
+		FOnMouseWheel=(empty)
+		FOnMouseWheelDown=(empty)
+		FOnMouseWheelUp=(empty)
+		FOnGesture=(empty)
+		FHelpType=htContext
+		FHelpKeyword=
+		FHelpContext=0
+		FCustomHint=(empty)
+		FParentCustomHint=True
+		FText=(empty)
+		FStyleElements=[seFont,seClient,seBorder]
+		FIScaling=False
+		FCurrentPPI=144
+		FAnchorMove=False
+		FAnchorRules=(record)
+		FAnchorOrigin=(record)
+		FOriginalParentCalcType=ctNative
+		FOriginalParentSize=(record)
+		FExplicitLeft=18
+		FExplicitTop=57
+		FExplicitWidth=240
+		FExplicitHeight=167
+		FReserved=(empty)
+		FScaleFactor=1,5
+		FOwner=(empty)
+		FName=
+		FTag=0
+		FComponents=(empty)
+		FFreeNotifies=(empty)
+		FDesignInfo=0
+		FComponentState=[]
+		FVCLComObject=(empty)
+		FObservers=(empty)
+		FOnGetDeltaStreams=(empty)
+		FComponentStyle=[csInheritable]
+		FSortedComponents=(empty)
+	);
+	FolderMonitor=(
+		FThread=(empty)
+		FFolder=
+		FFilter=27
+		FSubFolders=1
+		FOnChange=(method code=0080B9D0, data=04280870)
+		FOnActivate=(empty)
+		FOnDeactivate=(empty)
+		FOwner=(empty)
+		FName=
+		FTag=0
+		FComponents=(empty)
+		FFreeNotifies=(empty)
+		FDesignInfo=0
+		FComponentState=[]
+		FVCLComObject=(empty)
+		FObservers=(empty)
+		FOnGetDeltaStreams=(empty)
+		FComponentStyle=[csInheritable]
+		FSortedComponents=(empty)
+	);
+	SideRatio=0,360000014305115
+	LastChange=0
+	FAutoRangeCount=0
+	FAutoScroll=False
+	FHorzScrollBar=(TControlScrollBar @ 043B42F0)
+	FPanPoint=(record)
+	FUpdatingScrollBars=False
+	FVertScrollBar=(TControlScrollBar @ 043B4660)
+	FAlignControlList=(empty)
+	FAlignLevel=0
+	FBevelEdges=[beLeft,beTop,beRight,beBottom]
+	FBevelInner=bvRaised
+	FBevelOuter=bvLowered
+	FBevelKind=bkNone
+	FBevelWidth=1
+	FBorderWidth=0
+	FPadding=(TPadding @ 0437DB20)
+	FBrush=(TBrush @ 04360F00)
+	FDockClients=(empty)
+	FDockManager=(empty)
+	FImeMode=imDontCare
+	FImeName=
+	FParentWindow=0
+	FTabList=(TList @ 043664F8)
+	FTipMode=tipDontCare
+	FControls=(TList @ 04366420)
+	FWinControls=(TList @ 04366498)
+	FTabOrder=0
+	FTabStop=False
+	FTIPIntf=(empty)
+	FCtl3D=True
+	FShowing=False
+	FUseDockManager=False
+	FDockSite=False
+	FParentCtl3D=True
+	FParentDoubleBuffered=False
+	FPerformingShowingChanged=False
+	FOnDockDrop=(empty)
+	FOnDockOver=(empty)
+	FOnEnter=(empty)
+	FOnExit=(empty)
+	FOnGetSiteInfo=(empty)
+	FOnKeyDown=(empty)
+	FOnKeyPress=(empty)
+	FOnKeyUp=(empty)
+	FOnUnDock=(empty)
+	FOnAlignInsertBefore=(empty)
+	FOnAlignPosition=(empty)
+	FMouseInClient=False
+	FMouseControl=(empty)
+	FTouchControl=(empty)
+	FDefWndProc=(pointer @ 0041AA18)
+	FHandle=2165560
+	FObjectInstance=(pointer @ 024C0E01)
+	FDoubleBuffered=False
+	FInImeComposition=False
+	FDesignSize=(record)
+	FAsyncList=(empty)
+	FParent=(TTabSheet @ 043214A0)
+	FWindowProc=(method code=006FB0BC, data=04280870)
+	FLeft=0
+	FTop=0
+	FWidth=729
+	FHeight=555
+	FControlStyle=[csAcceptsControls,csCaptureMouse,csClickEvents,csSetCaption,csDoubleClicks,csPannable,csGestures]
+	FControlState=[]
+	FDesktopFont=False
+	FVisible=True
+	FEnabled=True
+	FParentFont=False
+	FParentColor=False
+	FAlign=alClient
+	FAutoSize=False
+	FDragMode=dmManual
+	FIsControl=False
+	FBiDiMode=bdLeftToRight
+	FParentBiDiMode=True
+	FAnchors=[akLeft,akTop,akRight,akBottom]
+	FFont=(TFont @ 04B2A090)
+	FActionLink=(empty)
+	FColor=-16777211
+	FConstraints=(TSizeConstraints @ 04A58170)
+	FMargins=(TMargins @ 0437DBE8)
+	FCursor=0
+	FDragCursor=-12
+	FPopupMenu=(empty)
+	FHint=
+	FFontHeight=-17
+	FScalingFlags=[]
+	FShowHint=False
+	FParentShowHint=True
+	FDragKind=dkDrag
+	FDockOrientation=doNoOrient
+	FHostDockSite=(empty)
+	FWheelAccumulator=0
+	FUndockWidth=0
+	FUndockHeight=0
+	FLRDockWidth=0
+	FTBDockHeight=0
+	FFloatingDockSiteClass=(class 'TCustomDockForm' @ 006B8720)
+	FTouchManager=(TTouchManager @ 0437DB70)
+	FOnCanResize=(empty)
+	FOnConstrainedResize=(empty)
+	FOnMouseDown=(empty)
+	FOnMouseMove=(empty)
+	FOnMouseUp=(empty)
+	FOnDragDrop=(empty)
+	FOnDragOver=(empty)
+	FOnResize=(method code=0080B2D4, data=04280870)
+	FOnStartDock=(empty)
+	FOnEndDock=(empty)
+	FOnStartDrag=(empty)
+	FOnEndDrag=(empty)
+	FOnClick=(empty)
+	FOnDblClick=(empty)
+	FOnContextPopup=(empty)
+	FOnMouseActivate=(empty)
+	FOnMouseLeave=(empty)
+	FOnMouseEnter=(empty)
+	FOnMouseWheel=(empty)
+	FOnMouseWheelDown=(empty)
+	FOnMouseWheelUp=(empty)
+	FOnGesture=(empty)
+	FHelpType=htContext
+	FHelpKeyword=
+	FHelpContext=0
+	FCustomHint=(empty)
+	FParentCustomHint=True
+	FText=(empty)
+	FStyleElements=[seFont,seClient,seBorder]
+	FIScaling=False
+	FCurrentPPI=144
+	FAnchorMove=False
+	FAnchorRules=(record)
+	FAnchorOrigin=(record)
+	FOriginalParentCalcType=ctWinApi
+	FOriginalParentSize=(record)
+	FExplicitLeft=0
+	FExplicitTop=0
+	FExplicitWidth=729
+	FExplicitHeight=555
+	FReserved=(empty)
+	FScaleFactor=1,5
+	FOwner=(empty)
+	FName=Frame86Box
+	FTag=0
+	FComponents=(TList<System.Classes.TComponent> @ 042929B0)
+	FFreeNotifies=(empty)
+	FDesignInfo=0
+	FComponentState=[]
+	FVCLComObject=(empty)
+	FObservers=(empty)
+	FOnGetDeltaStreams=(empty)
+	FComponentStyle=[csInheritable]
+	FSortedComponents=(TList<System.Classes.TComponent> @ 042928F0)
+);
+ 
+------------------------------------------------------------------------------
