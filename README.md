@@ -21,6 +21,8 @@ WinBox 目前已由 86Box 進行主導維護，也是 86Box 建議使用的前�
 了解更多關於 WinBox for 86Box 的資訊與說明，請見:  
 -[WinBox for 86Box Github](https://github.com/86Box/WinBox-for-86Box)
 
+本專案以中文化 PCem 介面為目的，無實質新增其他功能。
+
 ---
 
 中文化 WinBox for 86Box 參照版本: [v1.1.0.364](https://github.com/86Box/WinBox-for-86Box/tree/v1.1.0.364)  
